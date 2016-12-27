@@ -1,0 +1,9 @@
+
+[src/myrepos]
+checkout = git clone 'https://github.com/joeyh/myrepos' 'myrepos'
+
+[.fonts/tamzen-font]
+checkout = git clone 'https://github.com/sunaku/tamzen-font' 'tamzen-font'
+
+[src/yadm]
+checkout = git clone 'https://github.com/TheLocehiliosan/yadm' 'yadm'
