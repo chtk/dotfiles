@@ -1,0 +1,15 @@
+# Write your default config options here!
+af=scaletempo,drc=2:0.10
+osd-font="Source Sans Pro"
+osd-font-size=72
+sub-font="Advantage"
+vo=vdpau
+slang=en,nl
+save-position-on-quit
+
+no-border
+ontop
+on-all-workspaces
+geometry=100%:100%
+autofit=40%x40%
+force-window-position
