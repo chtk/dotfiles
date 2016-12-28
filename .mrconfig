@@ -7,3 +7,6 @@ checkout = git clone 'https://github.com/sunaku/tamzen-font' 'tamzen-font'
 
 [src/yadm]
 checkout = git clone 'https://github.com/TheLocehiliosan/yadm' 'yadm'
+
+[src/polybar]
+checkout = git clone 'https://github.com/jaagr/polybar' 'polybar'
