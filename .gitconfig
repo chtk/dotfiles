@@ -1,0 +1,28 @@
+[gui]
+	fontui = -family \"DejaVu Sans\" -size 8 -weight normal -slant roman -underline 0 -overstrike 0
+	fontdiff = -family Terminus -size 8 -weight normal -slant roman -underline 0 -overstrike 0
+	tabsize = 4
+[user]
+	email = chtk@xs4all.nl
+	name = Stefan van den Berg
+[alias]
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[giggle]
+	main-window-maximized = false
+	main-window-geometry = 700x798+52+117
+	main-window-view = HistoryView
+	history-view-vpane-position = 207
+	file-view-vpane-position = 715
+[github]
+	user = chtk
+	token = 10330a76b4b919b48a14a0a4b748c1e7
+[push]
+	default = simple
+[merge]
+	tool = kdiff3
