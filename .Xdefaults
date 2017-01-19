@@ -1,0 +1,16 @@
+#include ".base16/templates/xresources/xresources/base16-yesterday-night-256.Xresources"
+!#include ".base16/templates/xresources/xresources/base16-twilight-256.Xresources"
+#include ".Xdefaults.d/fonts.xresources"
+#include ".Xdefaults.d/rofi.xresources"
+
+URxvt.depth:			32
+URxvt.background:		rgba:2424/2727/3030/dddd
+! URxvt.foreground:		rgb:ff/ff/ff
+URxvt.scrollBar_right:	True
+URxvt.scrollColor: rgb:00/00/00
+URxvt.troughColor: rgb:2f/34/3f
+URxvt.borderColor: rgb:2f/34/3f
+URxvt.loginShell:		True
+URxvt.saveLines:		750
+URxvt.textShadow:		True
+URxvt.shadowColor:		rgb:40/40/40
