@@ -10,6 +10,6 @@ save-position-on-quit
 no-border
 ontop
 on-all-workspaces
-geometry=100%:100%
+geometry=-+8-+8
 autofit=40%x40%
 force-window-position
