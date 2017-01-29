@@ -24,30 +24,12 @@ export HISTCONTROL=ignoreboth:erasedups
 
 export PATH=$HOME/bin:$HOME/opt/fpc/bin:$PATH:/usr/sbin:/sbin:${HOME}/opt/go/bin
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
-export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
 #eval "$(ssh-agent -s)"
 
 shopt -s checkwinsize
 
-export EDITOR=`which vim`
-
-for sh in `pwd`/.gentoo/*-env ; do
-        if [ -r "$sh" ] ; then
-                . "$sh"
-        fi
-done
-unset sh
-
-export POVRAY_BETA=`povray --betacode 2>&1`
-export NNTPSERVER=newszilla.xs4all.nl
-
-
-# export MANPAGER="col -b | view -c 'set ft=man nomod nolist' -"
+export EDITOR=`env vim`
 export MANPAGER="most"
-
-export DEVKITPRO=${HOME}/opt/devkitpro
-export DEVKITPPC=${DEVKITPRO}/devkitPPC
-
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -55,8 +37,6 @@ export DEVKITPPC=${DEVKITPRO}/devkitPPC
 #if [ -f /etc/profile.d/bash-completion ]; then
 #	source /etc/profile.d/bash-completion
 #fi
-
-alias t=tmux
 
 function squashroot () {
 	if [[ $1 != "" ]]; then
@@ -68,9 +48,3 @@ function squashroot () {
 		echo 'Usage: squashroot [path]'
 	fi
 }
-
-
-. /home/stefan/torch/install/bin/torch-activate
-
-
-. /home/stefan/torch/install/bin/torch-activate
