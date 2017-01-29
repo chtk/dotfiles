@@ -28,7 +28,7 @@ export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
 shopt -s checkwinsize
 
-export EDITOR=`env vim`
+export EDITOR=$(which vim)
 export MANPAGER="most"
 
 # enable programmable completion features (you don't need to enable
