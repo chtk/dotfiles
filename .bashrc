@@ -31,9 +31,6 @@ shopt -s checkwinsize
 
 export EDITOR=`which vim`
 
-export LANG=en_US.utf8
-export LC_ALL=en_US.utf8
-
 for sh in `pwd`/.gentoo/*-env ; do
         if [ -r "$sh" ] ; then
                 . "$sh"
