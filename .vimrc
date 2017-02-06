@@ -3,8 +3,7 @@ set nocompatible
 "load plug vim if we do not have it yet
 if empty(glob('~/.vim/autoload/plug.vim'))
 	!mkdir -p ~/.vim/autoload/
-	!curl -fLo ~/.vim/autoload/plug.vim
-	https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+	!curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
 
 call plug#begin('~/.vim/plugged')
