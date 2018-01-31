@@ -11,7 +11,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'nosami/Omnisharp'
 Plug 'tpope/vim-dispatch'
-Plug ('Valloric/YouCompleteMe')
+Plug 'Valloric/YouCompleteMe', {'do': 'python install.py --cs-completer --go-completer --js-completer '}
 Plug ('chriskempson/base16-vim')
 Plug ('vim-airline/vim-airline')
 Plug ('vim-airline/vim-airline-themes')
