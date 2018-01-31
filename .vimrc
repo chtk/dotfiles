@@ -9,7 +9,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'nosami/Omnisharp'
+Plug 'OmniSharp/omnisharp-vim'
 Plug 'tpope/vim-dispatch'
 Plug 'Valloric/YouCompleteMe', {'do': 'python install.py --cs-completer --go-completer --js-completer '}
 Plug ('chriskempson/base16-vim')
