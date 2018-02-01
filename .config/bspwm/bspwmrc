@@ -17,10 +17,14 @@ bspc config click_to_focus       true
 bspc monitor -d I II III IV V VI VII VIII IX X
 
 bspc rule -a Gimp state=floating
+bspc rule -a Gimp-2.9 state=floating
+bspc rule -a Xsane state=floating
 bspc rule -a Chromium desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a Telegram state=floating
-bspc rule -a mpv sticky=on state=floating focus=off
+bspc rule -a mpv sticky=on state=floating
+bspc rule -a Pavucontrol state=floating
+bspc rule -a TelegramDesktop state=floating
 
