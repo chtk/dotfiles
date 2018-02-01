@@ -11,6 +11,9 @@ checkout = git clone 'https://github.com/TheLocehiliosan/yadm' 'yadm'
 [src/polybar]
 checkout = git clone 'https://github.com/jaagr/polybar' 'polybar'
 
+[.fonts/siji]
+checkout = git clone 'https://github.com/stark/siji.git' 'siji'
+
 [opt/humblebundle]
 checkout = git clone 'https://github.com/MestreLion/humblebundle' 'humblebundle'
 

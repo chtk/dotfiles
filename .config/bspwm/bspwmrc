@@ -1,5 +1,6 @@
 #! /bin/sh
 
+dunst &
 sxhkd &
 mpd &
 mpd-sima &
