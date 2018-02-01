@@ -39,10 +39,10 @@ export MANPAGER="most"
 #fi
 
 function squashroot () {
-	if [[ $1 != "" ]]; then
+	if [[ "$1" != "" ]]; then
 		dir=$(realpath "$1")
-		if [ -d $dir ]; then
-			find $dir -depth \( -type f -regex "$dir/.+/.+" -exec mv -v '{}' "$dir"  \; \) -or \( -type d  -regex "$dir/.+" -exec rmdir -v '{}' \; \)
+		if [ -d "$dir" ]; then
+			find "$dir" -depth \( -type f -regex "$dir/.+/.+" -exec mv -v '{}' "$dir"  \; \) -or \( -type d  -regex "$dir/.+" -exec rmdir -v '{}' \; \)
 		fi
 	else
 		echo 'Usage: squashroot [path]'
