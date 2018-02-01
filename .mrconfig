@@ -10,3 +10,9 @@ checkout = git clone 'https://github.com/TheLocehiliosan/yadm' 'yadm'
 
 [src/polybar]
 checkout = git clone 'https://github.com/jaagr/polybar' 'polybar'
+
+[opt/humblebundle]
+checkout = git clone 'https://github.com/MestreLion/humblebundle' 'humblebundle'
+
+[src/ue3_linux_opti]
+checkout = git clone 'https://github.com/Kryuko/ue3_linux_opti' 'ue3_linux_opti'
