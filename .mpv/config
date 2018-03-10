@@ -1,5 +1,5 @@
 # Write your default config options here!
-af=scaletempo,drc=2:0.10
+af=scaletempo,lavfi=[dynaudnorm=b=1:f=250:g=11]
 osd-font="Source Sans Pro"
 osd-font-size=72
 sub-font="Advantage"
