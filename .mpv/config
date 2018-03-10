@@ -4,6 +4,9 @@ osd-font="Source Sans Pro"
 osd-font-size=72
 sub-font="Advantage"
 vo=vdpau
+profile=opengl-hq
+scale=ewa_lanczossharp
+cscale=ewa_lanczossharp
 slang=en,nl
 save-position-on-quit
 
