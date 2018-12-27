@@ -32,6 +32,7 @@ Plug 'wookiehangover/jshint.vim'
 Plug 'vim-perl/vim-perl', { 'for': 'perl', 'do': 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
 Plug 'mhinz/vim-signify'
 Plug 'RRethy/vim-illuminate'
+Plug 'bronson/vim-trailing-whitespace'
 call plug#end()
 
 set list
