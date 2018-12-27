@@ -26,3 +26,7 @@
 	default = simple
 [merge]
 	tool = kdiff3
+[guitool "difftool"]
+	cmd = git difftool -y $FILENAME
+	noconsole = yes
+	needsfile = yes
